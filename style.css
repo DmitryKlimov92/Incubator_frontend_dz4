@@ -261,7 +261,7 @@ footer {
 
     .main-title {
         /* 📍 Размер шрифта */
-        cy.get('h1.main-title').should('have.css', 'font-size', '36px');
+        font-size: 36px; /* Уменьшаем размер шрифта для мобильных устройств */
     }
 
     .about-section .wrapper,
